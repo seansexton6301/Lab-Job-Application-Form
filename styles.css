@@ -1,0 +1,81 @@
+input,
+select,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 18px 0;
+  border: 2px solid #9ca3af;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+
+input:focus,
+textarea:focus {
+  border-color: #2563eb;
+  outline: none;
+}
+
+
+input:invalid,
+select:invalid,
+textarea:invalid {
+  border-color: red;
+}
+
+
+input:valid,
+select:valid,
+textarea:valid {
+  border-color: green;
+}
+
+
+input:first-of-type {
+  border-radius: 12px;
+
+}
+
+
+.radio-group {
+  margin: 20px 0;
+  padding: 0;
+  border: none;
+}
+
+.radio-group legend {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+
+.radio-group input[type="radio"]:checked {
+  border-color: #3b82f6;
+  background-color: #dbeafe;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+}
+
+
+.radio-group input[type="radio"]:checked + label {
+  color: #1d4ed8;
+  font-weight: 600;
+}
+
+
+button[type="submit"] {
+  background-color: #3b82f6;   
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.25s ease;
+}
+
+button:hover {
+  background-color: #1e40af;   
+}
